@@ -8,28 +8,39 @@ module.exports = {
   },
   themeConfig: {
     subSidebar: 'auto',
+    lastUpdated: '上次更新', // string | boolean
     locales: {
       '/': {
         lang: 'zh-CN',
       },
     },
     nav: [
-      { text: '首页', link: '/' },
       {
         text: '我的博客',
         items: [
-          { text: 'Java基础', link: '/accumulate/' },
-          { text: '图解算法', link: '/algorithm/' },
-          { text: '手摸手造一个RPC', link: 'http://dubbo.io/' },
+          {
+            text: '掘金',
+            link: 'https://juejin.cn/user/2098283918929047',
+            target: '_blank',
+          },
+          {
+            text: '知乎',
+            link: 'https://www.zhihu.com/people/xian-feng-gu-ying',
+            target: '_blank',
+          },
         ],
+      },
+      {
+        text: 'github',
+        link: 'https://github.com/wushengzhu',
+        target: '_blank',
       },
     ],
     sidebar: [
       {
         title: '首页',
-        path: '/',
+        path: '/notes/home',
         collapsable: false, // 不折叠
-        children: [{ title: '学前必读', path: '/' }],
       },
       {
         title: '前端学习笔记',
@@ -40,8 +51,8 @@ module.exports = {
       {
         title: '前端面试专栏',
         path: '/notes/interview/vue',
-        collapsable: false, // 折叠
-        children: [{ title: 'Vue学习笔记', path: '/' }],
+        collapsable: false, // 不折叠
+        children: [{ title: 'Vue学习笔记', path: '/notes/interview/vue' }],
       },
     ],
   },

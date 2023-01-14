@@ -1,4 +1,0 @@
-[submodule "blog"]
-	path = blog
-	url = git@github.com:wushengzhu/blog.git
-	branch = main
