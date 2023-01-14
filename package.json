@@ -13,5 +13,7 @@
   },
   "dependencies": {
     "vuepress-theme-reco": "^1.6.16"
-  }
+  },
+  "repository": "git@github.com:wushengzhu/blog.git",
+  "author": "wushengzhu <ws_zhu@foxmail.com>"
 }
