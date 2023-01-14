@@ -45,3 +45,5 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+## git push git@github.com:wushengzhu/blog.git HEAD:gh-pages
