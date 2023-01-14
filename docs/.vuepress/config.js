@@ -52,7 +52,11 @@ module.exports = {
         title: '前端面试专栏',
         path: '/notes/interview/vue',
         collapsable: false, // 不折叠
-        children: [{ title: 'Vue学习笔记', path: '/notes/interview/vue' }],
+        children: [
+          { title: 'Vue面试题', path: '/notes/interview/vue' },
+          { title: 'React面试题', path: '/notes/interview/react' },
+          { title: 'Angular面试题', path: '/notes/interview/angular' },
+        ],
       },
     ],
   },
