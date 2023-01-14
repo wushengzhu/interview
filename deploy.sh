@@ -13,11 +13,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# 如果发布到 https://<USERNAME>.github.io
-
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
-
-
-git push origin main
+git push git@github.com:wushengzhu/blog.git HEAD:gh-pages
 
 cd -
