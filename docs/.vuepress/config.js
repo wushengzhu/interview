@@ -31,9 +31,19 @@ module.exports = {
         ],
       },
       {
-        text: 'github',
-        link: 'https://github.com/wushengzhu',
-        target: '_blank',
+        text: '代码仓库',
+        items: [
+          {
+            text: 'github',
+            link: 'https://github.com/wushengzhu',
+            target: '_blank',
+          },
+          {
+            text: 'gitee',
+            link: 'https://gitee.com/wusheng_z',
+            target: '_blank',
+          },
+        ],
       },
     ],
     sidebar: [
@@ -45,17 +55,20 @@ module.exports = {
       {
         title: '前端学习笔记',
         path: '/notes/frame/vue',
-        collapsable: false, // 不折叠
-        children: [{ title: 'Vue学习笔记', path: '/notes/frame/vue' }],
+        collapsable: true, // 不折叠
+        children: [
+          { title: 'Vue', path: '/notes/frame/vue' },
+          { title: 'React', path: '/notes/frame/react' },
+        ],
       },
       {
         title: '前端面试专栏',
         path: '/notes/interview/vue',
-        collapsable: false, // 不折叠
+        collapsable: true, // 不折叠
         children: [
-          { title: 'Vue面试题', path: '/notes/interview/vue' },
-          { title: 'React面试题', path: '/notes/interview/react' },
-          { title: 'Angular面试题', path: '/notes/interview/angular' },
+          { title: 'Vue', path: '/notes/interview/vue' },
+          { title: 'React', path: '/notes/interview/react' },
+          { title: 'Angular', path: '/notes/interview/angular' },
         ],
       },
     ],
