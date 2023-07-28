@@ -1,19 +1,22 @@
 {
-  "name": "blog",
+  "name": "interview-column",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A project of vuepress-theme-hope",
   "license": "MIT",
+  "repository": "git@github.com:wushengzhu/interview-column.git",
+  "author": "wushengzhu <ws_zhu@foxmail.com>",
+  "type": "module",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "bash deploy.sh"
+    "build": "vuepress build src",
+    "docs:clean-dev": "vuepress dev src --clean-cache",
+    "dev": "vuepress dev src",
+    "deploy": "bash src/deploy.sh",
+    "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "vuepress": "^1.9.8"
-  },
-  "dependencies": {
-    "vuepress-theme-reco": "^1.6.16"
-  },
-  "repository": "git@github.com:wushengzhu/blog.git",
-  "author": "wushengzhu <ws_zhu@foxmail.com>"
+    "@vuepress/client": "2.0.0-beta.66",
+    "vue": "^3.2.47",
+    "vuepress": "2.0.0-beta.66",
+    "vuepress-theme-hope": "2.0.0-beta.233"
+  }
 }
