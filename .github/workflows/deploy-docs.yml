@@ -21,7 +21,7 @@ jobs:
           # 如果你文档需要 Git 子模块，取消注释下一行
           # submodules: true
       - name: 安装 pnpm
-      - uses: pnpm/action-setup@v2.1.0
+        uses: pnpm/action-setup@v2.1.0
         with:
           version: 7.2.1
       - name: Install modules
