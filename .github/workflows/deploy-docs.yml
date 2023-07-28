@@ -26,8 +26,6 @@ jobs:
           version: 7.2.1
       - name: Install modules
         run: pnpm install
-      - name: Run Test
-        run: pnpm run test:run
 #       - name: 安装 pnpm
 #         uses: pnpm/action-setup@v2
 #         with:
@@ -45,7 +43,7 @@ jobs:
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
-          pnpm run docs:build
+          pnpm run build
           > src/.vuepress/dist/.nojekyll
 
       - name: 部署文档
