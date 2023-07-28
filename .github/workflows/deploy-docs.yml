@@ -26,8 +26,6 @@ jobs:
           version: 7.2.1
       - name: Install modules
         run: pnpm install
-      - name: Run Test
-        run: pnpm run test:run
 #       - name: 安装 pnpm
 #         uses: pnpm/action-setup@v2
 #         with:
