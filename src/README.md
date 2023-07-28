@@ -1,6 +1,6 @@
 ---
 home: true
-# icon: home
+icon: home
 title: 首页
 heroImage: /logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg # https://wszhu.oss-cn-guangzhou.aliyuncs.com/images/wallhaven-9d8ee1.jpg # https://theme-hope-assets.vuejs.press/bg/6-light.svg
@@ -10,11 +10,11 @@ bgImageStyle:
 heroText: 面试专栏
 tagline: 集广大网友的前端面试八股文，以及个人面试经验，通过本博客分享给大家，助力每一位技术人顺利通过面试！
 actions:
-  - text: Get Started 😀
+  - text: Get Started 💡
     link: ./docs/
     type: primary
 
-  - text: github 🧐
+  - text: github
     link: https://github.com/wushengzhu/interview-column
     target: "_blank"
 

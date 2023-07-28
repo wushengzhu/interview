@@ -5,12 +5,12 @@ export const zhNavbar = navbar([
   '/docs/',
   {
     text: '个人主页',
-    // icon: 'book',
-    link: '/',
+    icon: 'user',
+    link: '/wszhu-home',
   },
   {
     text: '博客',
-    // icon: 'lightbulb',
+    icon: 'blog',
     children: [
       {
         text: '掘金',

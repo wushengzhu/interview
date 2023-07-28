@@ -2,7 +2,7 @@
 # 这是文章的标题
 title: angular
 # 这是页面的图标
-# icon: file
+# icon: angular
 # 这是侧边栏的顺序
 order: 3
 # 设置作者

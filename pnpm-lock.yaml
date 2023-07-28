@@ -2506,7 +2506,7 @@ packages:
       connect-history-api-fallback: registry.npmmirror.com/connect-history-api-fallback@2.0.0
       postcss: registry.npmmirror.com/postcss@8.4.27
       postcss-load-config: registry.npmmirror.com/postcss-load-config@4.0.1(postcss@8.4.27)
-      rollup: registry.npmmirror.com/rollup@3.26.3
+      rollup: registry.npmmirror.com/rollup@3.27.0
       vite: registry.npmmirror.com/vite@4.4.7
       vue: registry.npmmirror.com/vue@3.3.4
       vue-router: registry.npmmirror.com/vue-router@4.2.4(vue@3.3.4)
@@ -6330,10 +6330,10 @@ packages:
       fsevents: registry.npmmirror.com/fsevents@2.3.2
     dev: true
 
-  registry.npmmirror.com/rollup@3.26.3:
-    resolution: {integrity: sha512-7Tin0C8l86TkpcMtXvQu6saWH93nhG3dGQ1/+l5V2TDMceTxO7kDiK6GzbfLWNNxqJXm591PcEZUozZm51ogwQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/rollup/-/rollup-3.26.3.tgz}
+  registry.npmmirror.com/rollup@3.27.0:
+    resolution: {integrity: sha512-aOltLCrYZ0FhJDm7fCqwTjIUEVjWjcydKBV/Zeid6Mn8BWgDCUBBWT5beM5ieForYNo/1ZHuGJdka26kvQ3Gzg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/rollup/-/rollup-3.27.0.tgz}
     name: rollup
-    version: 3.26.3
+    version: 3.27.0
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -7067,7 +7067,7 @@ packages:
     dependencies:
       esbuild: registry.npmmirror.com/esbuild@0.18.17
       postcss: registry.npmmirror.com/postcss@8.4.27
-      rollup: registry.npmmirror.com/rollup@3.26.3
+      rollup: registry.npmmirror.com/rollup@3.27.0
     optionalDependencies:
       fsevents: registry.npmmirror.com/fsevents@2.3.2
     dev: true
@@ -8159,7 +8159,3 @@ packages:
     dependencies:
       tslib: registry.npmmirror.com/tslib@2.3.0
     dev: true
-
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false

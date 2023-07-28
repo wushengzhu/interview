@@ -6,10 +6,11 @@ export default hopeTheme({
   hostname: 'https://vuepress-theme-hope-docs-demo.netlify.app',
 
   author: {
-    name: 'Mr.Hope',
-    url: 'https://mister-hope.com',
+    name: 'wushengzhu',
+    url: '',
   },
-  iconAssets: 'fontawesome-with-brands',
+  iconPrefix:'fa fa-',
+  iconAssets: 'fontawesome', // 默认支持iconfont和字体图标fontawesome，不是外国那个fontawesome
   darkmode: 'toggle',
   themeColor: true, // 是否启用主题色选择
   fullscreen: true, // 是否开启全屏
@@ -19,7 +20,6 @@ export default hopeTheme({
   repo: 'wushengzhu/interview-column', // 仓库链接
 
   docsDir: 'src',
-
   locales: {
     // "/": {
     //   // navbar
