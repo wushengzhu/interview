@@ -10,12 +10,12 @@
     "build": "vuepress build src",
     "docs:clean-dev": "vuepress dev src --clean-cache",
     "dev": "vuepress dev src",
-    "deploy": "bash src/deploy.sh",
+    "d": "bash deploy.sh",
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.66",
-    "vue": "^3.2.47",
+    "vue": "^3.3.4",
     "vuepress": "2.0.0-beta.66",
     "vuepress-theme-hope": "2.0.0-beta.233"
   }
