@@ -3,7 +3,9 @@ home: true
 icon: home
 title: 首页
 heroImage: /logo.svg
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg # https://wszhu.oss-cn-guangzhou.aliyuncs.com/images/wallhaven-9d8ee1.jpg # https://theme-hope-assets.vuejs.press/bg/6-light.svg
+bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
+# https://wszhu.oss-cn-guangzhou.aliyuncs.com/images/wallhaven-9d8ee1.jpg
+# https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
