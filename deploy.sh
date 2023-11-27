@@ -16,6 +16,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:wushengzhu/interview-column.git HEAD:gh-pages 
+git push -f git@github.com:wushengzhu/interview.git HEAD:gh-pages 
 
 cd -
