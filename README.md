@@ -1,4 +1,4 @@
-# interview-column
+# interview
 基于[vuepress-theme-hope](https://theme-hope.vuejs.press/zh/guide/get-started/install.html)搭建的面试专栏，本专栏主要是收集网上大部分前端面试题，并记录一下自己的面试经验，希望对你有一定的帮助！
 > Node版本>=16.14.1 
 ## 准备
