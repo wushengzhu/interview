@@ -1,10 +1,10 @@
 ---
 title: vue
-date: 2023-07-28 11:00:03
+icon: 'fa fa-file-text'
 # 一个页面可以有多个分类
-category: ["前端框架"]
+category: ['前端框架']
 # 一个页面可以有多个标签
-tag: ["frontend"]
+tag: ['frontend']
 ---
 
 **vue 是什么？**
@@ -36,11 +36,11 @@ tag: ["frontend"]
 
 ```js
 new Vue({
-  el: "#root", // el用于指定当前Vue实例为哪个容器服务，值通常为css选择器字符串。
+  el: '#root', // el用于指定当前Vue实例为哪个容器服务，值通常为css选择器字符串。
   data: {
-    name: ""
-  }
-});
+    name: '',
+  },
+})
 ```
 
 ```html
@@ -54,9 +54,9 @@ new Vue({
   </body>
   <script>
     const app = new Vue({
-      el: "#app",
-      data: {}
-    });
+      el: '#app',
+      data: {},
+    })
   </script>
 </html>
 ```
@@ -101,39 +101,39 @@ new Vue({
 ```js
 // el第一种写法
 const v = new Vue({
-  el: "#root",
+  el: '#root',
   data: {
-    name: "abc"
-  }
-});
+    name: 'abc',
+  },
+})
 
 // el第二种写法
 const v = new Vue({
   data: {
-    name: "abc"
-  }
-});
-v.$mount("#root");
+    name: 'abc',
+  },
+})
+v.$mount('#root')
 ```
 
 ```js
 // data的第一种写法，在html中写vue就用这种
 const v = new Vue({
-  el: "#root",
+  el: '#root',
   data: {
-    name: "abc"
-  }
-});
+    name: 'abc',
+  },
+})
 
 // data的第二种写法，写组件的时候必须用这种
 const v = new Vue({
-  el: "#root",
+  el: '#root',
   data() {
     return {
-      name: "abc"
-    };
-  }
-});
+      name: 'abc',
+    }
+  },
+})
 ```
 
 注意地，data 不能写成箭头函数。
@@ -169,12 +169,12 @@ data 中所有的属性，最后都出现在 vm 身上了。vm 身上的所有�
 
   ```js
   let data = {
-    name: "abc"
-  };
+    name: 'abc',
+  }
   const v = new Vue({
-    el: "#root",
-    data
-  });
+    el: '#root',
+    data,
+  })
   ```
 
 ### 1.7 事件处理
@@ -315,7 +315,7 @@ data:{
 // Vue.set(vm._data.student,'sex','男')
 
 // 修改data里的数组
-vm.$set(vm._data.hobby, 1, "游泳");
+vm.$set(vm._data.hobby, 1, '游泳')
 // 也可以合理引用Vue官网认可修改数组元素的方法，如push，可查看官方文档
 ```
 
@@ -344,23 +344,23 @@ vm.$set(vm._data.hobby, 1, "游泳");
   </form>
 </div>
 <script type="text/javascript">
-  Vue.config.productionTip = false;
+  Vue.config.productionTip = false
   const vm = new Vue({
-    el: "#root",
+    el: '#root',
     data: {
       userInfo: {
-        username: "",
-        password: "",
-        sex: "male",
-        hobby: []
-      }
+        username: '',
+        password: '',
+        sex: 'male',
+        hobby: [],
+      },
     },
     methods: {
       demo() {
-        console.log(this.userInfo);
-      }
-    }
-  });
+        console.log(this.userInfo)
+      },
+    },
+  })
 </script>
 ```
 
@@ -491,24 +491,24 @@ Vue.filter("moneyFormat", (value) => {
 ```html
 <div id="root">{{info}}</div>
 <script type="text/javascript">
-  Vue.config.productionTip = false;
+  Vue.config.productionTip = false
   const vm = new Vue({
-    el: "#root",
+    el: '#root',
     data: {
-      info: "北极光之夜"
+      info: '北极光之夜',
     },
     methods: {
       show(info, obj) {
-        console.log(info);
-        console.log("获取Vue实例data里的数据：", obj.info);
-        console.log("挂载的对象，就是DOM：", obj.$el);
+        console.log(info)
+        console.log('获取Vue实例data里的数据：', obj.info)
+        console.log('挂载的对象，就是DOM：', obj.$el)
         console.log(
-          "页面上已经挂载的DOM：",
-          document.getElementById("root").innerHTML
-        );
-      }
-    }
-  });
+          '页面上已经挂载的DOM：',
+          document.getElementById('root').innerHTML
+        )
+      },
+    },
+  })
 </script>
 ```
 
@@ -683,10 +683,10 @@ vue.js 文件与 vue.runtime.xxx.js 的区别：
 export const hunhe = {
   methods: {
     showName() {
-      alert(this.name);
-    }
-  }
-};
+      alert(this.name)
+    },
+  },
+}
 ```
 
 ```js
@@ -750,7 +750,7 @@ export default{
 - 自定义实现方法二：使用 ref
 
   ```js
-  this.$refs.xxxx.$on("test", this.test);
+  this.$refs.xxxx.$on('test', this.test)
   ```
 
 - 触发自定义事件：
@@ -762,14 +762,14 @@ export default{
 ​ 解绑所有自定义事件：
 
 ```js
-this.$off("事件名称"); //解绑一个自定义事件
-this.$off([]); // 解绑多个自定义事件
+this.$off('事件名称') //解绑一个自定义事件
+this.$off([]) // 解绑多个自定义事件
 ```
 
 ​ 销毁当前组件实例：
 
 ```js
-this.$destory();
+this.$destory()
 ```
 
 ## 8 全局事件总线(GlobalEventBus)
@@ -778,12 +778,12 @@ this.$destory();
 
   ```js
   new Vue({
-    el: "#app",
+    el: '#app',
     render: (h) => h(App),
     beforeCreate() {
-      Vue.prototype.$bus = this; // 安装全局事件总线，$bus就是当前应用的vm
-    }
-  });
+      Vue.prototype.$bus = this // 安装全局事件总线，$bus就是当前应用的vm
+    },
+  })
   ```
 
 ## 9 消息订阅与发布-pubsub
@@ -889,42 +889,42 @@ h1 {
 - 来自不同组件的行为需要变更**同一状态** - 共享。
 
 ```js
-import Vue from "vue";
-import Vuex from "vuex";
+import Vue from 'vue'
+import Vuex from 'vuex'
 
-Vue.use(Vuex);
+Vue.use(Vuex)
 
 const state = {
-  shareBike: "共享单车，暂时没有人使用！",
-  isUsed: false
-};
+  shareBike: '共享单车，暂时没有人使用！',
+  isUsed: false,
+}
 const mutations = {
   USE_BIKE(state, value) {
-    state.shareBike = value;
+    state.shareBike = value
   },
   IS_USED(state, value) {
-    state.isUsed = value;
-  }
-};
+    state.isUsed = value
+  },
+}
 const actions = {
   useBike(context, value) {
-    context.commit("USE_BIKE", value);
+    context.commit('USE_BIKE', value)
   },
   isUsed(context, value) {
-    context.commit("IS_USED", value);
-  }
-};
+    context.commit('IS_USED', value)
+  },
+}
 
-const modules = {};
-const getters = {};
+const modules = {}
+const getters = {}
 
 export default new Vuex.Store({
   state,
   getters,
   mutations,
   actions,
-  modules
-});
+  modules,
+})
 ```
 
 ## 13 vue-router
@@ -991,7 +991,7 @@ export default new Vuex.Store({
 
   ```js
   // 在组件中接收
-  props: ["id", "title"];
+  props: ['id', 'title']
   ```
 
 - props 的第三种写法：值为函数，返回值是一个对象.

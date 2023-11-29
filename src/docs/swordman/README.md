@@ -1,7 +1,7 @@
 ---
 title: 前端基础
 index: false
-# icon: laptop-code
+icon: laptop-code
 category:
   - 使用指南
 ---

@@ -2,7 +2,7 @@
 # 这是文章的标题
 title: react
 # 这是页面的图标
-# icon: file
+icon: 'fa fa-file-text'
 # 这是侧边栏的顺序
 order: 2
 # 设置作者
@@ -11,9 +11,9 @@ author: wushengzhu
 date: 2020-01-01
 # 一个页面可以有多个分类
 # 一个页面可以有多个分类
-category: ["前端框架"]
+category: ['前端框架']
 # 一个页面可以有多个标签
-tag: ["frontend"]
+tag: ['frontend']
 # 此页面会在文章列表置顶
 sticky: true
 # 此页面会出现在文章收藏中

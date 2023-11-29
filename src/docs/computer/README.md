@@ -1,20 +1,13 @@
-# 计算机基础
+---
+title: 计算机基础
+index: false
 
-:::: code-group
-::: code-group-item FOO
+category:
+  - 计算机
+---
 
-```ts
-const foo = 'foo'
-```
+## 目录
 
-:::
+- [Markdown 展示](vite.md)
 
-::: code-group-item BAR
-
-```ts
-const bar = 'bar'
-```
-
-:::
-
-::::
+- [页面展示](webpack.md)
