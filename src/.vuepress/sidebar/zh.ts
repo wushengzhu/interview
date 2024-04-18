@@ -53,5 +53,12 @@ export const zhSidebar = sidebar({
       link: 'docs/micro/',
       children: 'structure',
     },
+    {
+      text: '计算机基础',
+      icon: 'book',
+      prefix: 'computer/',
+      link: 'docs/computer/',
+      children: 'structure',
+    },
   ],
 })
