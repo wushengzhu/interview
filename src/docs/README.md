@@ -1,7 +1,7 @@
 ---
 title: 面试专栏
 index: false
-icon: file-text
+icon: fa fa-file-text
 category:
   - Guide
 ---

@@ -9,7 +9,7 @@ export default hopeTheme({
     name: 'wushengzhu',
     url: '',
   },
-  iconPrefix:'fa fa-',
+  // iconPrefix: 'fa fa-',
   iconAssets: 'fontawesome', // 默认支持iconfont和字体图标fontawesome，不是外国那个fontawesome
   darkmode: 'toggle',
   themeColor: true, // 是否启用主题色选择
@@ -17,7 +17,7 @@ export default hopeTheme({
   // pure: true, // 是否开启纯净模式。
   logo: '/logo.svg',
 
-  repo: 'wushengzhu/interview-column', // 仓库链接
+  repo: 'wushengzhu/interview', // 仓库链接
 
   docsDir: 'src',
   locales: {

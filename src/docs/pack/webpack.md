@@ -2,7 +2,7 @@
 # 这是文章的标题
 title: webpack
 # 这是页面的图标
-# icon: file
+icon: 'fa fa-file-text'
 # 这是侧边栏的顺序
 order: 1
 # 设置作者
@@ -10,9 +10,9 @@ author: wushengzhu
 # 设置写作时间
 date: 2020-01-01
 # 一个页面可以有多个分类
-category: ["构建工具"]
+category: ['构建工具']
 # 一个页面可以有多个标签
-tag: ["frontend"]
+tag: ['frontend']
 # 此页面会在文章列表置顶
 sticky: true
 # 此页面会出现在文章收藏中

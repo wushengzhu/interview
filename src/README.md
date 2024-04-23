@@ -277,5 +277,5 @@ actions:
 #       link: https://theme-hope.vuejs.press/guide/advanced/pwa.html
 
 copyright: false
-footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2023-present wushengzhu
+footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2023-present <a href="https://github.com/wushengzhu" target="_blank">wushengzhu</a>
 ---
